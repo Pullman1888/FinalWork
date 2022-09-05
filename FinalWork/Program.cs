@@ -1,4 +1,4 @@
-﻿//FinalWork
+﻿//FinalWork Вывод элементов массива который <=3
 string[] Arr;
 Console.WriteLine("Введите массив");
 string s = Console.ReadLine();
@@ -15,6 +15,6 @@ foreach(var Value in Arr)
 //Console.WriteLine(res);
 }
     
-Console.WriteLine(string.Join(Environment.NewLine, res, 0, size));
+Console.WriteLine(string.Join("\n", res, 0, size));
 
 
